@@ -1,5 +1,10 @@
 package com.nagendra547.sort;
 
+/*
+An optimized version of BubbleSort.
+Really great when to sort 
+
+*/
 public class BubbleSortOptimized extends AbstractSort{
 
 	@Override
