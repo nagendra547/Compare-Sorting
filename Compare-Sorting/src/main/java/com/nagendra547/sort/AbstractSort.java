@@ -1,5 +1,10 @@
 package com.nagendra547.sort;
 
+/**
+ * 
+ * @author nagendra
+ *
+ */
 public abstract class AbstractSort implements Sortable {
 
 	public void swap(int a[], int i, int j) {

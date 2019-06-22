@@ -1,10 +1,20 @@
 package com.nagendra547.sort;
 
-/*
+/**
+ * 
+ * 
 An optimized version of BubbleSort.
 Really great when to sort 
 
-*/
+Original :- 12,  5,  6,  67,  54,  9,  
+5,  6,  12,  54,  9,  67,  
+5,  6,  12,  9,  54,  67,  
+5,  6,  9,  12,  54,  67, ( No swap now and so break)  
+5,  6,  9,  12,  54,  67, 
+
+ * @author nagendra
+ *
+ */
 public class BubbleSortOptimized extends AbstractSort{
 
 	@Override
@@ -22,7 +32,7 @@ public class BubbleSortOptimized extends AbstractSort{
 			if(swap == false){
 				break;
 			}
-			printArray(a);
+			//printArray(a);
 		}
 		
 	}

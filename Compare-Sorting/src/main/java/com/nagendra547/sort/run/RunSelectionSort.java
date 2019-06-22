@@ -1,4 +1,6 @@
-package com.nagendra547.sort;
+package com.nagendra547.sort.run;
+
+import com.nagendra547.sort.SelectionSort;
 
 public class RunSelectionSort{
 
