@@ -22,7 +22,7 @@ public class App {
 
 		App app = new App();
 		SortingType[] supported = { SortingType.BUBBLE, SortingType.BUBBLE_OPTIMIZED, SortingType.INSERTION,
-				SortingType.SELECTION, SortingType.QUICK, SortingType.MERGE, SortingType.HEAP };
+				SortingType.SELECTION, SortingType.QUICK, SortingType.MERGE, SortingType.HEAP , SortingType.TREE};
 		app.supportedAlgos.addAll(Arrays.asList(supported));
 		for (SortingType type: app.supportedAlgos) {
 			app.algoStatisticsList.add(new AlgoStatistics(type));
@@ -30,10 +30,8 @@ public class App {
 
 		int run_list[] = { 10, 100, 1000, 10000,100000 };
 		for (int x : run_list) {
-			app.runSorting(x);
-		}
-		for(int x:run_list) {
 			System.out.println("For "+x +" elements, following are the time taken by algorithm in miliseconds");
+			app.runSorting(x);
 			for(AlgoStatistics algo: app.algoStatisticsList) {
 				System.out.println(algo.getSortingType()+" : "+algo.getTime().get(x));
 			}

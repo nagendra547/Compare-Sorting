@@ -3,14 +3,14 @@
 
 ## Sorting Algos implemented
 
-* [BubbleSort.java](Compare-Sorting/src/main/java/com/nagendra547/sort/BubbleSort.java)
-* [BubbleSortOptimized.java](Compare-Sorting/src/main/java/com/nagendra547/sort/BubbleSortOptimized.java)
-* [HeapSort.java](Compare-Sorting/src/main/java/com/nagendra547/sort/HeapSort.java)
-* [InsertionSort.java](Compare-Sorting/src/main/java/com/nagendra547/sort/InsertionSort.java)
-* [MergeSort.java](Compare-Sorting/src/main/java/com/nagendra547/sort/MergeSort.java)
-* [QuickSort.java](Compare-Sorting/src/main/java/com/nagendra547/sort/QuickSort.java)
-* [SelectionSort.java](Compare-Sorting/src/main/java/com/nagendra547/sort/SelectionSort.java)
+* [Bubble Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/BubbleSort.java)
+* [Bubble SortOptimized](Compare-Sorting/src/main/java/com/nagendra547/sort/BubbleSortOptimized.java)
+* [Heap Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/HeapSort.java)
+* [Insertion Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/InsertionSort.java)
+* [Merge Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/MergeSort.java)
+* [Quick Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/QuickSort.java)
+* [Selection Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/SelectionSort.java)
+* [Tree Sort](Compare-Sorting/src/main/java/com/nagendra547/sort/TreeSort.java)
 
-
-
+![Time Comparasion](timing.png)
 

@@ -8,6 +8,7 @@ import com.nagendra547.sort.InsertionSort;
 import com.nagendra547.sort.MergeSort;
 import com.nagendra547.sort.QuickSort;
 import com.nagendra547.sort.SelectionSort;
+import com.nagendra547.sort.TreeSort;
 
 /**
  * A factory to provide the sorting strategy instance
@@ -33,6 +34,8 @@ public class SortFactory {
 			return new QuickSort();
 		case HEAP:
 			return new HeapSort();
+		case TREE:
+			return new TreeSort();
 		default:
 			break;
 		}

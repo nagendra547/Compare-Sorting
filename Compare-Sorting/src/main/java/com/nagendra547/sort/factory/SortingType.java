@@ -7,5 +7,6 @@ public enum SortingType {
 	SELECTION,
 	MERGE,
 	QUICK,
-	HEAP,
+	HEAP, 
+	TREE,
 }
